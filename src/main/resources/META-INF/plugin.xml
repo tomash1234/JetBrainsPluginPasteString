@@ -30,8 +30,8 @@
     <applicationConfigurable
             parentId="tools"
             instance="cz.tobb.stringpaste.StringPasteConfigurable"
-            id="cz.tobb.stringpaste.DocTemplateConfigurable"
-            displayName="Description Generator Settings"/>
+            id="cz.tobb.stringpaste.StringPasteConfigurable"
+            displayName="String Paste Settings"/>
 
    </extensions>
   <actions>

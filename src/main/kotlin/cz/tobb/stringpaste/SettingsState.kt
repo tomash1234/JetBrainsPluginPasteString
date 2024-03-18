@@ -7,8 +7,8 @@ import com.intellij.openapi.components.Storage
 import com.intellij.util.xmlb.XmlSerializerUtil
 
 @State(
-    name = "cz.tobb.nextplugin.AppSettingsState",
-    storages = [Storage("DesGenSettingsPlugin.xml")]
+    name = "cz.tobb.stringpaste.SettingsState",
+    storages = [Storage("StringPaste.xml")]
 )
 class SettingsState : PersistentStateComponent<SettingsState> {
 
