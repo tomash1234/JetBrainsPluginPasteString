@@ -15,13 +15,13 @@ import javax.swing.event.ListSelectionEvent
 class AppSettingsComponent {
 
     private val panel: JPanel = JPanel(VerticalLayout(4))
-    private val txName = JBTextField(50)
+    private val txName = JTextField(50)
     private val txContent = JTextArea(15, 50)
     private var listModel: DefaultListModel<PredefinedItem> = DefaultListModel<PredefinedItem>()
-    private var listView : JBList<PredefinedItem> = JBList(listModel)
+    private var listView : JList<PredefinedItem> = JList(listModel)
 
     init {
-        val listScrollPanel = JBScrollPane(listView)
+        val listScrollPanel = JScrollPane(listView)
         txContent.font = txName.font
         txContent.margin = txName.margin
         txContent.setBorder(BorderFactory.createCompoundBorder(
@@ -40,13 +40,13 @@ class AppSettingsComponent {
         panel.add(buttonPanel)
 
         val actionNamePanel = JPanel(HorizontalLayout(4))
-        val labelName = JBLabel("Name")
+        val labelName = JLabel("Name")
         labelName.preferredWidth = 45
         actionNamePanel.add(labelName)
         actionNamePanel.add(txName)
 
         val actionContentPanel = JPanel(HorizontalLayout(4))
-        val labelContent = JBLabel("Content")
+        val labelContent = JLabel("Content")
         labelContent.preferredWidth = 45
         actionContentPanel.add(labelContent)
         actionContentPanel.add(txContent)
