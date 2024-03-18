@@ -1,4 +1,4 @@
-# String Paste Plugin
+# String Paste Plugin ![](images/logo.png)
 
 The String Paste plugin simplifies incorporating frequently used strings into your code.
 With this tool, users can effortlessly define multiple strings and seamlessly paste them
