@@ -15,11 +15,30 @@
        Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
        Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
   <description>
-    The String Paste plugin simplifies incorporating frequently used strings into your code. With this tool, users can
+    <![CDATA[
+    The <b>String Paste</b> plugin simplifies incorporating frequently used strings into your code. With this tool, users can
     effortlessly define multiple strings and seamlessly paste them into their codebase as needed. Say goodbye to
     repetitive typing and hello to enhanced efficiency in your coding workflow.
+
+    <h3>Usage</h3>
+    <ol>
+      <li>Open Settings (File -> Settings)</li>
+      <li>Click on Tools -> String Paste Settings</li>
+      <li>Click on Add and enter name and content</li>
+      <li>Click on Apply</li>
+      <li>In editor -> open context menu -> Click on generate (alt+insert)</li>
+      <li>Select a string to paste</li>
+    </ol>
+    ]]>
   </description>
 
+  <change-notes>
+    <![CDATA[
+      <ul>
+        <li><b>1.0.3</b> Improve description</li>
+      </ul>
+    ]]>
+  </change-notes>
   <!-- Product and plugin compatibility requirements.
        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
   <depends>com.intellij.modules.platform</depends>

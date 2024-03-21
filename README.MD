@@ -7,6 +7,8 @@ Say goodbye to repetitive typing and hello to enhanced efficiency in your coding
 
 ![](images/settings.png)
 
+<iframe width="384px" height="319px" src="https://plugins.jetbrains.com/embeddable/card/23982"></iframe>
+
 Example of usage:
 - Store your often used URLs / paths
 - Description templates
