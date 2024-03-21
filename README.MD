@@ -7,7 +7,7 @@ Say goodbye to repetitive typing and hello to enhanced efficiency in your coding
 
 ![](images/settings.png)
 
-<iframe width="384px" height="319px" src="https://plugins.jetbrains.com/embeddable/card/23982"></iframe>
+<a href="https://plugins.jetbrains.com/plugin/23982-string-paste/">**GET PLUGIN**</a>
 
 Example of usage:
 - Store your often used URLs / paths
